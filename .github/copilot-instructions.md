@@ -10,3 +10,4 @@ The project documentation will be built during the bootcamp sessions.
 
 - [Project Overview](../docs/project-overview.md) - Overview of the project
 - [Functional Requirements](../docs/functional-requirements.md) - Core functional requirements for the Task Manager application
+- [UI Guidelines](../docs/ui-guidelines.md) - Core UI styling and configuration guidelines for the Task Manager application
