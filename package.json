@@ -10,6 +10,9 @@
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "npm run start --workspace=frontend",
     "start:backend": "npm run start --workspace=backend",
+    "lint": "npm run lint:frontend && npm run lint:backend",
+    "lint:frontend": "npm run lint --workspace=frontend",
+    "lint:backend": "npm run lint --workspace=backend",
     "test": "npm run test:frontend && npm run test:backend",
     "test:integration": "npm run test:integration --workspace=backend",
     "test:e2e": "npx playwright test",
@@ -24,6 +27,7 @@
   "devDependencies": {
     "concurrently": "^8.2.2",
     "@playwright/test": "^1.40.0",
+    "eslint": "^8.57.0",
     "wait-on": "^7.2.0"
   }
 }
